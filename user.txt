@@ -1,0 +1,6 @@
+laxi h,1068H
+loada h
+loop: move a,f
+loop1: 
+loop2:
+termt

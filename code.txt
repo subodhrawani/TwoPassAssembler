@@ -1,0 +1,13 @@
+loada  2000h ;
+move b , m ;
+incx b ;
+move c , m ;
+decx c ; 
+incx c ;
+compr m ;
+jumpc LOOP1 ;
+move b , m ;
+LOOP1 : decx b ; 
+
+storea 3000h ;
+termt
